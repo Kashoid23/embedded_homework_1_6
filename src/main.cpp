@@ -8,7 +8,6 @@ void setup() {
     Sensor::begin();
 
     Serial.println("LDR voltage measurement - ESP32-S3");
-    Serial.println("raw:\tcalc_mV:\tmeasured_mV:\terror_pct:");
 }
 
 void loop() {
